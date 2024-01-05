@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 14, 2023, 10:03:37 AM
+    Author     : admin
+*/
+body{
+    background-image: url(image/login_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+.login-form {
+  width: 450px;
+  height: 450px;
+  border: 10px solid #ff5c00;
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+  /*background-color: white;*/
+}
+.input-items {
+  display: flex;
+  margin: 10px 20px;
+}
+.input-items label {
+  width: 200px;
+  text-align: start;
+}
+.input-items input {
+  width: 270px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid #afaeae;
+}
+.input-items input:hover {
+  border: 1px solid black;
+}
+.form-container {
+  height: 165px;
+  background-color: rgb(234, 231, 231);
+  padding-top: 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #dacfca;
+}
+.login-button {
+  margin-top: 10px;
+  width: 250px;
+  height: 35px;
+  background-color: #ff5c00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+}
+.form-container input:hover:nth-child(3) {
+  background-color: #e25502;
+    box-shadow: 1px 1px 1px grey;
+
+}
+.register-form p {
+  margin-top: 30px;
+}
+.register-button {
+  width: 250px;
+  height: 35px;
+  background-color: rgb(31, 162, 250);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+}
+
+.register-button :hover {
+  background-color: #e25502;
+}
+.register-form input:hover {
+  background-color: rgb(0, 132, 220);
+}
+.forgetPass-link{
+    margin-right: 10px;
+}
